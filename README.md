@@ -3,6 +3,8 @@
 [![Latest Release](https://img.shields.io/github/v/release/luminakraft/luminakraft-launcher-releases?style=for-the-badge&logo=github&color=blue)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
 [![Downloads](https://img.shields.io/github/downloads/luminakraft/luminakraft-launcher-releases/total?style=for-the-badge&logo=download&color=green)](https://github.com/luminakraft/luminakraft-launcher-releases/releases)
 [![Windows](https://img.shields.io/badge/Windows-10%2B-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-10.15%2B-silver?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu%2018.04%2B-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > **Un lanzador de modpacks personalizado para Minecraft, desarrollado específicamente para la comunidad de LuminaKraft Studios.**
@@ -25,37 +27,97 @@
 
 ## 💾 Descarga e Instalación
 
-### 📥 Descarga para Windows
+### 📥 Descargas Multiplataforma
 
 **👉 [Descargar Última Versión](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)**
 
-#### Opciones de Instalación:
-
+#### 🪟 Windows
 | Tipo | Descripción | Recomendado Para |
 |------|-------------|------------------|
-| **`.msi`** | Instalador completo con registro en sistema | ✅ **Usuarios generales** |
-| **`.exe`** | Ejecutable portable autocontenido | 💻 Usuarios avanzados |
+| **`.msi`** | MSI Installer - Instalador completo con registro en sistema | ✅ **Usuarios generales** |
+| **`.exe`** | NSIS Installer - Instalador alternativo | 💻 Usuarios avanzados |
+
+#### 🐧 Linux
+| Tipo | Descripción | Recomendado Para |
+|------|-------------|------------------|
+| **`.AppImage`** | Aplicación portable | ✅ **Recomendado - Funciona en todas las distribuciones** |
+| **`.deb`** | Paquete DEB | 🟢 Debian/Ubuntu |
+| **`.rpm`** | Paquete RPM | 🔴 Red Hat/Fedora/openSUSE |
+
+#### 🍎 macOS
+| Tipo | Descripción | Recomendado Para |
+|------|-------------|------------------|
+| **`.dmg`** | DMG Image - Instalación drag & drop | ✅ **Recomendado para todos** |
+| **🍎 Apple Silicon** | `aarch64-apple-darwin` | ✨ **M1/M2/M3/M4 Macs** |
+| **💻 Intel Macs** | `x86_64-apple-darwin` | 🔧 Soporte legacy |
 
 ### 🔧 Pasos de Instalación
 
-#### Para archivo `.msi` (Recomendado):
+#### 🪟 Windows
+
+**Para archivo `.msi` (Recomendado):**
 1. **Descarga** el archivo `.msi` desde la [página de releases](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
 2. **Ejecuta** el archivo descargado como administrador
 3. **Sigue** el asistente de instalación
 4. **Busca** "LuminaKraft Launcher" en el menú de inicio
 
-#### Para archivo `.exe` (Portable):
+**Para archivo `.exe` (NSIS):**
 1. **Descarga** el archivo `.exe` desde la [página de releases](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
-2. **Crea** una carpeta dedicada (ej: `C:\LuminaKraftLauncher\`)
-3. **Mueve** el archivo `.exe` a esa carpeta
-4. **Ejecuta** el archivo directamente
+2. **Ejecuta** el instalador como administrador
+3. **Sigue** las instrucciones del asistente
+4. **Busca** la aplicación en el menú de inicio
+
+#### 🐧 Linux
+
+**Para AppImage (Recomendado):**
+1. **Descarga** el archivo `.AppImage`
+2. **Otorga permisos de ejecución**: `chmod +x LuminaKraft-Launcher-*.AppImage`
+3. **Ejecuta** directamente: `./LuminaKraft-Launcher-*.AppImage`
+
+**Para DEB (Debian/Ubuntu):**
+1. **Descarga** el archivo `.deb`
+2. **Instala** con: `sudo dpkg -i LuminaKraft-Launcher-*.deb`
+3. **Resuelve dependencias** si es necesario: `sudo apt-get install -f`
+
+**Para RPM (Red Hat/Fedora):**
+1. **Descarga** el archivo `.rpm`
+2. **Instala** con: `sudo rpm -i LuminaKraft-Launcher-*.rpm`
+3. **O usa dnf**: `sudo dnf install LuminaKraft-Launcher-*.rpm`
+
+#### 🍎 macOS
+
+**Para DMG (Recomendado):**
+1. **Descarga** el archivo `.dmg` apropiado para tu Mac
+   - 🍎 **Apple Silicon** (M1/M2/M3/M4): Descarga la versión `aarch64-apple-darwin`
+   - 💻 **Intel Mac**: Descarga la versión `x86_64-apple-darwin`
+2. **Abre** el archivo `.dmg`
+3. **Arrastra** LuminaKraft Launcher a la carpeta Applications
+4. **Ejecuta** desde Launchpad o Applications
 
 ---
 
 ## ⚙️ Requisitos del Sistema
 
 ### Requisitos Mínimos:
+
+#### 🪟 Windows
 - **Sistema Operativo**: Windows 10 (build 1903) o superior
+- **RAM**: 4 GB (mínimo), 8 GB recomendado
+- **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
+- **Conexión a Internet**: Requerida para descargas y actualizaciones
+
+#### 🐧 Linux
+- **Distribuciones**: Ubuntu 18.04+, Debian 10+, Fedora 32+, openSUSE Leap 15.2+
+- **Arquitectura**: x86_64 (64-bit)
+- **RAM**: 4 GB (mínimo), 8 GB recomendado
+- **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
+- **Conexión a Internet**: Requerida para descargas y actualizaciones
+
+#### 🍎 macOS
+- **Sistema Operativo**: macOS 10.15 (Catalina) o superior
+- **Arquitectura**: 
+  - 🍎 Apple Silicon (M1/M2/M3/M4) - Soporte nativo
+  - 💻 Intel x86_64 - Soporte completo
 - **RAM**: 4 GB (mínimo), 8 GB recomendado
 - **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
 - **Conexión a Internet**: Requerida para descargas y actualizaciones
@@ -88,13 +150,22 @@
 ## 📸 Capturas de Pantalla
 
 <!-- Screenshots will be added here -->
-*📋 Las capturas de pantalla se agregarán en futuras actualizaciones del README.*
+*📋 Las capturas de pantalla se encuentran en la carpeta [`assets/images/`](assets/images/) y se actualizarán próximamente.*
 
 ### Vista Previa de Características:
-- 🎮 Pantalla principal con lista de modpacks
-- ⚙️ Panel de configuración avanzada
-- 📊 Monitor de descargas en tiempo real
-- 🔄 Sistema de actualizaciones integrado
+- 🎮 Pantalla principal con lista de modpacks disponibles
+- ⚙️ Panel de configuración avanzada (RAM, Java, rutas)
+- 📊 Monitor de descargas en tiempo real con progreso
+- 🔄 Sistema de actualizaciones automáticas integrado
+- 🌙 Interfaz moderna con tema oscuro
+- 🎯 Soporte completo para modo offline
+
+### Próximas Capturas:
+- Proceso de instalación en Windows, Linux y macOS
+- Interfaz principal del launcher en diferentes temas
+- Panel de configuración detallado
+- Sistema de actualizaciones en acción
+- Gestión de múltiples instancias de modpacks
 
 ---
 
@@ -113,11 +184,52 @@ A: En `%APPDATA%\LuminaKraftLauncher\instances\` - cada modpack en su propia car
 
 ### 🚫 Problemas Comunes
 
+#### 🪟 Windows
+
 **Q: "La aplicación no se abre" o "Error al iniciar"**  
 A: 
 1. Ejecuta como administrador
 2. Verifica que Windows Defender no esté bloqueando el archivo
 3. Descarga nuevamente desde el enlace oficial
+
+#### 🐧 Linux
+
+**Q: "Permission denied" al ejecutar AppImage**  
+A: 
+1. Otorga permisos de ejecución: `chmod +x LuminaKraft-Launcher-*.AppImage`
+2. Si persiste, ejecuta como: `sudo ./LuminaKraft-Launcher-*.AppImage`
+
+**Q: "Error de dependencias" en DEB/RPM**  
+A: 
+1. **Ubuntu/Debian**: `sudo apt-get install -f`
+2. **Fedora**: `sudo dnf install --skip-broken`
+3. **openSUSE**: `sudo zypper install --no-recommends`
+
+#### 🍎 macOS
+
+**Q: "La aplicación está dañada y no se puede abrir"**  
+A: 
+1. **Causa**: macOS marca las aplicaciones descargadas con atributo de cuarentena
+2. **Solución**:
+   - Abre la Terminal
+   - Ejecuta: `xattr -c /Applications/LuminaKraftLauncher.app`
+   - (Reemplaza la ruta con la ubicación de tu aplicación)
+   - Intenta abrir la aplicación nuevamente
+
+**Q: "Apple no pudo verificar que 'LuminaKraft Launcher' está libre de malware"**  
+A: 
+1. Abre **Configuración del Sistema**
+2. Ve a **Privacidad y Seguridad**
+3. Desplázate hasta la parte inferior
+4. Verás el mensaje "LuminaKraft Launcher fue bloqueado"
+5. Haz clic en **"Abrir de todos modos"**
+
+**Q: "Problemas de permisos en macOS"**  
+A: 
+1. Da permisos de ejecución: `chmod +x /Applications/LuminaKraftLauncher.app/Contents/MacOS/LuminaKraftLauncher`
+2. Si persiste, ejecuta desde Terminal: `open /Applications/LuminaKraftLauncher.app`
+
+#### 🌐 Problemas Generales
 
 **Q: "Error de descarga de modpack"**  
 A: 
@@ -175,10 +287,14 @@ Este software se distribuye bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) par
 ## 🎯 Próximas Características
 
 ### 🔮 En Desarrollo:
-- 🌍 **Soporte Multiplataforma**: Versiones para macOS y Linux
+- ✅ **Soporte Multiplataforma**: **¡YA DISPONIBLE!** - Windows, Linux y macOS
 - 🎨 **Temas Personalizables**: Más opciones de personalización de interfaz
 - 📊 **Estadísticas Avanzadas**: Métricas de tiempo de juego y rendimiento
 - 🔧 **Configuración Cloud**: Sincronización de configuraciones entre dispositivos
+- 🏗️ **Gestión de Profiles**: Múltiples perfiles de usuario
+- 🔐 **Autenticación Mejorada**: Soporte para cuentas Microsoft
+- 📱 **Interfaz Responsive**: Mejor adaptación a diferentes resoluciones
+- 🌐 **Localización**: Soporte para más idiomas
 
 ---
 

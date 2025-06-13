@@ -1,0 +1,13 @@
+# Directorio para imágenes del README
+
+Este directorio contiene las imágenes utilizadas en el README.md del repositorio.
+
+## Estructura sugerida:
+- screenshots/ - capturas de pantalla de la aplicación
+- badges/ - badges personalizados si es necesario
+- icons/ - iconos y logos
+
+## Formatos recomendados:
+- PNG para capturas de pantalla (mejor calidad)
+- WebP para optimización (menor tamaño)
+- JPG para imágenes con muchos colores 

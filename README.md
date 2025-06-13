@@ -11,45 +11,36 @@
 
 ## 📋 Descripción
 
-**LuminaKraft Launcher** es un lanzador moderno y eficiente para modpacks de Minecraft, construido con tecnología de vanguardia (Tauri, React, TypeScript y Rust) y potenciado por la biblioteca Lyceris. Ofrece una experiencia completa de gestión de modpacks con actualizaciones automáticas, soporte offline y una interfaz intuitiva.
+**LuminaKraft Launcher** es un lanzador moderno para modpacks de Minecraft con actualizaciones automáticas, gestión de Java y soporte multiplataforma.
 
-### ✨ Características Principales
+![LuminaKraft Launcher Interface](assets/images/LauncherShowcase.png)
 
-- 🎮 **Gestión Completa de Modpacks**: Instalación automática y gestión de instancias aisladas
-- 🔄 **Actualizaciones Automáticas**: Sistema completamente automático con un solo clic
-- ⚡ **Gestión Automática de Java**: Descarga e instala automáticamente la versión correcta de Java
+### ✨ Características
+
+- 🎮 **Gestión de Modpacks**: Instalación automática e instancias aisladas
+- 🔄 **Actualizaciones Automáticas**: Un clic para actualizar todo
+- ⚡ **Java Automático**: Descarga la versión correcta automáticamente  
 - 🎯 **Modo Offline**: Compatible con usuarios premium y no premium
-- 🖥️ **Interfaz Moderna**: Diseño intuitivo con tema oscuro y componentes responsivos
-- 🛠️ **Múltiples Modloaders**: Soporte para Forge, Fabric, Quilt y NeoForge
-- 📊 **Descargas Optimizadas**: Descargas paralelas 3-5x más rápidas con verificación de integridad
+- 🖥️ **Interfaz Moderna**: Tema oscuro y diseño intuitivo
+- 🛠️ **Múltiples Modloaders**: Forge, Fabric, Quilt y NeoForge
+- 📊 **Descargas Rápidas**: 3-5x más rápido con verificación de integridad
 
 ---
 
 ## 💾 Descarga e Instalación
 
-### 📥 Descargas Multiplataforma
+## 💾 Descarga
 
 **👉 [Descargar Última Versión](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)**
 
-#### 🪟 Windows
-| Tipo | Descripción | Recomendado Para |
-|------|-------------|------------------|
-| **`.msi`** | MSI Installer - Instalador completo con registro en sistema | ✅ **Usuarios generales** |
-| **`.exe`** | NSIS Installer - Instalador alternativo | 💻 Usuarios avanzados |
-
-#### 🐧 Linux
-| Tipo | Descripción | Recomendado Para |
-|------|-------------|------------------|
-| **`.AppImage`** | Aplicación portable | ✅ **Recomendado - Funciona en todas las distribuciones** |
-| **`.deb`** | Paquete DEB | 🟢 Debian/Ubuntu |
-| **`.rpm`** | Paquete RPM | 🔴 Red Hat/Fedora/openSUSE |
-
-#### 🍎 macOS
-| Tipo | Descripción | Recomendado Para |
-|------|-------------|------------------|
-| **`.dmg`** | DMG Image - Instalación drag & drop | ✅ **Recomendado para todos** |
-| **🍎 Apple Silicon** | `aarch64-apple-darwin` | ✨ **M1/M2/M3/M4 Macs** |
-| **💻 Intel Macs** | `x86_64-apple-darwin` | 🔧 Soporte legacy |
+| Sistema | Archivo | Descripción |
+|---------|---------|-------------|
+| 🪟 **Windows** | `.msi` ✅ | Instalador recomendado |
+| | `.exe` | Instalador alternativo |
+| 🐧 **Linux** | `.AppImage` ✅ | Funciona en todas las distribuciones |
+| | `.deb` / `.rpm` | Para Debian/Ubuntu y Red Hat/Fedora |
+| 🍎 **macOS** | `.dmg` ✅ | Instalación drag & drop |
+| | Apple Silicon / Intel | Ambas arquitecturas soportadas |
 
 ### 🔧 Pasos de Instalación
 
@@ -96,36 +87,15 @@
 
 ---
 
-## ⚙️ Requisitos del Sistema
+## ⚙️ Requisitos
 
-### Requisitos Mínimos:
+| Sistema | Versión | RAM | Notas |
+|---------|---------|-----|-------|
+| 🪟 Windows | 10+ | 4-8 GB | Automático |
+| 🐧 Linux | Ubuntu 18.04+ | 4-8 GB | AppImage recomendado |
+| 🍎 macOS | 10.15+ | 4-8 GB | Apple Silicon + Intel |
 
-#### 🪟 Windows
-- **Sistema Operativo**: Windows 10 (build 1903) o superior
-- **RAM**: 4 GB (mínimo), 8 GB recomendado
-- **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
-- **Conexión a Internet**: Requerida para descargas y actualizaciones
-
-#### 🐧 Linux
-- **Distribuciones**: Ubuntu 18.04+, Debian 10+, Fedora 32+, openSUSE Leap 15.2+
-- **Arquitectura**: x86_64 (64-bit)
-- **RAM**: 4 GB (mínimo), 8 GB recomendado
-- **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
-- **Conexión a Internet**: Requerida para descargas y actualizaciones
-
-#### 🍎 macOS
-- **Sistema Operativo**: macOS 10.15 (Catalina) o superior
-- **Arquitectura**: 
-  - 🍎 Apple Silicon (M1/M2/M3/M4) - Soporte nativo
-  - 💻 Intel x86_64 - Soporte completo
-- **RAM**: 4 GB (mínimo), 8 GB recomendado
-- **Espacio en Disco**: 2 GB libres (más espacio para modpacks)
-- **Conexión a Internet**: Requerida para descargas y actualizaciones
-
-### Requisitos Automáticos:
-- ☑️ **Java**: Se instala automáticamente (no requiere instalación manual)
-- ☑️ **Actualizaciones**: Sistema automático integrado
-- ☑️ **Dependencias**: Todas las librerías necesarias están incluidas
+**✅ Automático**: Java, actualizaciones y dependencias se instalan automáticamente
 
 ---
 
@@ -151,11 +121,7 @@
 
 ### 🍎 Capturas de macOS
 
-> **Nota**: Las siguientes capturas de pantalla fueron tomadas en macOS, mostrando la experiencia nativa en sistemas Apple.
-
-#### 🚀 Interfaz Principal del Launcher
-![LuminaKraft Launcher Interface](assets/images/LauncherShowcase.png)
-*Interfaz principal de LuminaKraft Launcher ejecutándose nativamente en macOS*
+> **Capturas del proceso de instalación y solución de problemas en macOS**
 
 #### 📥 Proceso de Descarga
 ![Descargar Launcher](assets/images/DownloadLauncher.png)

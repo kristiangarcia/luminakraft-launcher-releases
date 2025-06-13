@@ -1,10 +1,10 @@
 # 🚀 LuminaKraft Launcher - Releases
 
-[![Latest Release](https://img.shields.io/github/v/release/luminakraft/luminakraft-launcher-releases?style=for-the-badge&logo=github&color=blue)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
-[![Downloads](https://img.shields.io/github/downloads/luminakraft/luminakraft-launcher-releases/total?style=for-the-badge&logo=download&color=green)](https://github.com/luminakraft/luminakraft-launcher-releases/releases)
-[![Windows](https://img.shields.io/badge/Windows-10%2B-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
-[![macOS](https://img.shields.io/badge/macOS-10.15%2B-silver?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
-[![Linux](https://img.shields.io/badge/Linux-Ubuntu%2018.04%2B-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
+[![Latest Release](https://img.shields.io/github/v/release/kristiangarcia/luminakraft-launcher-releases?style=for-the-badge&logo=github&color=blue)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/kristiangarcia/luminakraft-launcher-releases/total?style=for-the-badge&logo=download&color=green)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases)
+[![Windows](https://img.shields.io/badge/Windows-10%2B-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
+[![macOS](https://img.shields.io/badge/macOS-10.15%2B-silver?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
+[![Linux](https://img.shields.io/badge/Linux-Ubuntu%2018.04%2B-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
 
 > **Un lanzador de modpacks personalizado para Minecraft, desarrollado específicamente para la comunidad de LuminaKraft Studios.**
@@ -29,7 +29,7 @@
 
 ### 📥 Descargas Multiplataforma
 
-**👉 [Descargar Última Versión](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)**
+**👉 [Descargar Última Versión](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)**
 
 #### 🪟 Windows
 | Tipo | Descripción | Recomendado Para |
@@ -56,13 +56,13 @@
 #### 🪟 Windows
 
 **Para archivo `.msi` (Recomendado):**
-1. **Descarga** el archivo `.msi` desde la [página de releases](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
+1. **Descarga** el archivo `.msi` desde la [página de releases](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
 2. **Ejecuta** el archivo descargado como administrador
 3. **Sigue** el asistente de instalación
 4. **Busca** "LuminaKraft Launcher" en el menú de inicio
 
 **Para archivo `.exe` (NSIS):**
-1. **Descarga** el archivo `.exe` desde la [página de releases](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest)
+1. **Descarga** el archivo `.exe` desde la [página de releases](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
 2. **Ejecuta** el instalador como administrador
 3. **Sigue** las instrucciones del asistente
 4. **Busca** la aplicación en el menú de inicio
@@ -152,6 +152,10 @@
 ### 🍎 Capturas de macOS
 
 > **Nota**: Las siguientes capturas de pantalla fueron tomadas en macOS, mostrando la experiencia nativa en sistemas Apple.
+
+#### 🚀 Interfaz Principal del Launcher
+![LuminaKraft Launcher Interface](assets/images/LauncherShowcase.png)
+*Interfaz principal de LuminaKraft Launcher ejecutándose nativamente en macOS*
 
 #### 📥 Proceso de Descarga
 ![Descargar Launcher](assets/images/DownloadLauncher.png)
@@ -280,7 +284,7 @@ A: No, todas tus instancias, configuraciones y partidas guardadas se mantienen i
 - **🐦 [Twitter](https://twitter.com/luminakraft)** - Actualizaciones y anuncios
 
 ### 🛠️ Soporte Técnico
-- **🐛 [Reportar Problemas](https://github.com/luminakraft/luminakraft-launcher-releases/issues)** - Issues de GitHub
+- **🐛 [Reportar Problemas](https://github.com/kristiangarcia/luminakraft-launcher-releases/issues)** - Issues de GitHub
 - **📖 [Documentación](https://docs.luminakraft.com)** - Guías detalladas
 - **❓ [Centro de Ayuda](https://help.luminakraft.com)** - Base de conocimientos
 
@@ -325,7 +329,7 @@ Este software se distribuye bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) par
 
 ### 📝 Reportar Problemas
 Si encuentras algún problema:
-1. **Busca** en [issues existentes](https://github.com/luminakraft/luminakraft-launcher-releases/issues)
+1. **Busca** en [issues existentes](https://github.com/kristiangarcia/luminakraft-launcher-releases/issues)
 2. **Crea** un nuevo issue con detalles específicos
 3. **Incluye** tu versión de Windows y detalles del error
 
@@ -333,9 +337,9 @@ Si encuentras algún problema:
 
 ## 📊 Estadísticas del Proyecto
 
-![GitHub Release Date](https://img.shields.io/github/release-date/luminakraft/luminakraft-launcher-releases?style=flat-square)
-![GitHub last commit](https://img.shields.io/github/last-commit/luminakraft/luminakraft-launcher-releases?style=flat-square)
-![GitHub repo size](https://img.shields.io/github/repo-size/luminakraft/luminakraft-launcher-releases?style=flat-square)
+![GitHub Release Date](https://img.shields.io/github/release-date/kristiangarcia/luminakraft-launcher-releases?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/kristiangarcia/luminakraft-launcher-releases?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/kristiangarcia/luminakraft-launcher-releases?style=flat-square)
 
 ---
 
@@ -345,7 +349,7 @@ Si encuentras algún problema:
 
 **¿Te gusta el proyecto? ¡Dale una ⭐ y compártelo con tus amigos!**
 
-[⚡ Descargar Ahora](https://github.com/luminakraft/luminakraft-launcher-releases/releases/latest) • [💬 Discord](https://discord.gg/luminakraft) • [🌐 Sitio Web](https://luminakraft.com)
+[⚡ Descargar Ahora](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest) • [💬 Discord](https://discord.gg/luminakraft) • [🌐 Sitio Web](https://luminakraft.com)
 
 </div>
 

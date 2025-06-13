@@ -5,7 +5,7 @@
 [![Windows](https://img.shields.io/badge/Windows-10%2B-blue?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
 [![macOS](https://img.shields.io/badge/macOS-10.15%2B-silver?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
 [![Linux](https://img.shields.io/badge/Linux-Ubuntu%2018.04%2B-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest)
-[![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](LICENSE)
+[![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge)](LICENSE)
 
 > **Un lanzador de modpacks personalizado para Minecraft, desarrollado específicamente para la comunidad de LuminaKraft Studios.**
 
@@ -265,8 +265,8 @@ A: No, todas tus instancias, configuraciones y partidas guardadas se mantienen i
 - ✅ Sin telemetría invasiva ni recolección de datos personales
 - ✅ Código malware-free verificado por Windows Defender
 
-### 📋 Licencia
-Este software se distribuye bajo la **Licencia MIT**. Ver [LICENSE](LICENSE) para más detalles.
+### 📜 Licencia
+Este software es propiedad de LuminaKraft Studios. Todos los derechos reservados. Está prohibida la copia, modificación o distribución sin autorización expresa.
 
 ---
 

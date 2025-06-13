@@ -245,14 +245,12 @@ A: No, todas tus instancias, configuraciones y partidas guardadas se mantienen i
 
 ### 🌐 Sitios Web y Comunidad
 - **🏠 [Sitio Web Oficial](https://luminakraft.com)** - Página principal de LuminaKraft Studios
-- **💬 [Discord Oficial](https://discord.gg/luminakraft)** - Comunidad, soporte y noticias
+- **💬 [Discord Oficial](https://discord.gg/UJZRrcUFMj)** - Comunidad, soporte y noticias
 - **📺 [YouTube](https://youtube.com/@luminakraft)** - Tutoriales y contenido oficial
 - **🐦 [Twitter](https://twitter.com/luminakraft)** - Actualizaciones y anuncios
 
 ### 🛠️ Soporte Técnico
 - **🐛 [Reportar Problemas](https://github.com/kristiangarcia/luminakraft-launcher-releases/issues)** - Issues de GitHub
-- **📖 [Documentación](https://docs.luminakraft.com)** - Guías detalladas
-- **❓ [Centro de Ayuda](https://help.luminakraft.com)** - Base de conocimientos
 
 ---
 
@@ -315,7 +313,7 @@ Si encuentras algún problema:
 
 **¿Te gusta el proyecto? ¡Dale una ⭐ y compártelo con tus amigos!**
 
-[⚡ Descargar Ahora](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest) • [💬 Discord](https://discord.gg/luminakraft) • [🌐 Sitio Web](https://luminakraft.com)
+[⚡ Descargar Ahora](https://github.com/kristiangarcia/luminakraft-launcher-releases/releases/latest) • [💬 Discord](https://discord.gg/UJZRrcUFMj) • [🌐 Sitio Web](https://luminakraft.com)
 
 </div>
 

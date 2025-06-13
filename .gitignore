@@ -1,0 +1,29 @@
+# Ignorar todo por defecto
+*
+
+# Permitir solo los archivos necesarios
+!.gitignore
+!README.md
+!LICENSE
+!.github/workflows/build-release.yml
+!.github/workflows/test-build.yml
+!assets/
+
+# Ignorar archivos de código fuente y desarrollo
+src/
+src-tauri/
+node_modules/
+target/
+dist/
+build/
+.env*
+*.log
+*.lock
+package.json
+package-lock.json
+Cargo.toml
+Cargo.lock
+
+# Mantener la estructura de carpetas
+!.github/
+!.github/workflows/ 

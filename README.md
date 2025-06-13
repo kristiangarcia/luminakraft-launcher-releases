@@ -149,10 +149,27 @@
 
 ## 📸 Capturas de Pantalla
 
-<!-- Screenshots will be added here -->
-*📋 Las capturas de pantalla se encuentran en la carpeta [`assets/images/`](assets/images/) y se actualizarán próximamente.*
+### 🍎 Capturas de macOS
 
-### Vista Previa de Características:
+> **Nota**: Las siguientes capturas de pantalla fueron tomadas en macOS, mostrando la experiencia nativa en sistemas Apple.
+
+#### 📥 Proceso de Descarga
+![Descargar Launcher](assets/images/DownloadLauncher.png)
+*Descarga del LuminaKraft Launcher desde la página de releases de GitHub*
+
+#### 🔍 Búsqueda en el Sistema
+![Buscar Launcher](assets/images/SearchLauncher.png)
+*Localización del launcher instalado en macOS usando Spotlight*
+
+#### 💻 Solución de Problemas - Terminal
+![Abrir Terminal](assets/images/OpenTerminal.png)
+*Acceso a la Terminal de macOS para resolver problemas de permisos*
+
+#### ⚡ Comandos de Terminal
+![Comando Terminal](assets/images/TerminalCommand.png)
+*Ejecución del comando `xattr -c` para resolver el problema "La aplicación está dañada"*
+
+### ✨ Vista Previa de Características:
 - 🎮 Pantalla principal con lista de modpacks disponibles
 - ⚙️ Panel de configuración avanzada (RAM, Java, rutas)
 - 📊 Monitor de descargas en tiempo real con progreso
@@ -160,12 +177,13 @@
 - 🌙 Interfaz moderna con tema oscuro
 - 🎯 Soporte completo para modo offline
 
-### Próximas Capturas:
-- Proceso de instalación en Windows, Linux y macOS
-- Interfaz principal del launcher en diferentes temas
-- Panel de configuración detallado
-- Sistema de actualizaciones en acción
-- Gestión de múltiples instancias de modpacks
+### 🔜 Próximas Capturas:
+- 🪟 Proceso de instalación en Windows (.msi/.exe)
+- 🐧 Instalación en Linux (AppImage/DEB/RPM)
+- 🎮 Interfaz principal del launcher en funcionamiento
+- ⚙️ Panel de configuración detallado
+- 📊 Sistema de actualizaciones en acción
+- 🗂️ Gestión de múltiples instancias de modpacks
 
 ---
 

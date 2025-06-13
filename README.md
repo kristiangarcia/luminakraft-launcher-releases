@@ -319,4 +319,4 @@ Si encuentras algún problema:
 
 ---
 
-*Última actualización del README: Enero 2024* 
+*Última actualización del README: Junio 2025* 
